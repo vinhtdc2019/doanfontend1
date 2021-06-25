@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villagio &#8211; Luxury Villas All Over The World</title>
+    <!-- Font Awesome, Bootstrap CSS -->
+    <link rel="stylesheet" href="./public/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+    <div class="vil-container container mx-auto my-0 my-lg-4">
+        <div class="row">
+            <header class="col-12 px-0">
+                <nav class="vil-navbar w-100 navbar navbar-expand-lg navbar-light bg-white">
+                    <a class="navbar-brand mr-0 mr-lg-5 py-4 py-lg-0" href="#">Villagio</a>
+                    <div class="vil-navbar-content w-100 d-flex justify-content-between py-3 py-lg-0 border-top">
+                        <div class="vil-navbar-menu w-100">
+                            <div class="d-flex justify-content-between order-1 order-lg-2">
+                                <button class="navbar-toggler d-lg-none border-0" type="button" data-toggle="collapse"
+                                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
+                                    <span class="text-uppercase">Menu</span>
+                                </button>
+                                <div class="vil-navbar-search">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="collapse navbar-collapse pt-3 pt-lg-0 order-2 order-lg-1" id="collapsibleNavId">
+                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="dropdownIdRegion"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Villas By
+                                            Region</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownIdRegion">
+                                            <a class="dropdown-item" href="#">Aosta Valley</a>
+                                            <a class="dropdown-item" href="#">Lazio</a>
+                                            <a class="dropdown-item" href="#">Le Marche</a>
+                                            <a class="dropdown-item" href="#">Find Your Villa</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="dropdownIdActivities"
+                                            data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">Activities</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownIdActivities">
+                                            <a class="dropdown-item" href="#">Capri Boat Tour from Sorrento lorem</a>
+                                            <a class="dropdown-item" href="#">Sightseeing Naples Tour for Families</a>
+                                            <a class="dropdown-item" href="#">Learn History: Half-day Trip to
+                                                Pompeii</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="dropdownIdNews"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News</a>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownIdNews">
+                                            <a class="dropdown-item" href="#">Style Guide</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Start Trial</a>
+                                    </li>
+                                </ul>
+                                <ul class="vil-navbar-social">
+                                    <li>
+                                        <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                        <span>Tripadvisor</span>
+                                    <li>
+                                        <i class="fa fa-foursquare" aria-hidden="true"></i>
+                                        <span>Foursquare</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                        <span>Instagram</span>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                        <span>Facebook</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div id="carouselId" class="vil-carousel carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselId" data-slide-to="0" class="active">01</li>
+                        <li data-target="#carouselId" data-slide-to="1">02</li>
+                        <li data-target="#carouselId" data-slide-to="2">03</li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active"
+                            style="background-image: url(./public/images/Banner1_original-2000x1500.jpg);">
+                            <div class="carousel-caption">
+                                <span class="vil-carousel-categories">Le Marche</span>
+                                <h3 class="vil-carousel-title">Villa Bastilicata Grande</h3>
+                                <p class="vil-carousel-description">This is a perfect villa with spa center and hot tub
+                                    for private, family and
+                                    corporate rest in Le Marche region in Italy,
+                                    with best nature views.</p>
+                                <div class="vil-carousel-price">
+                                    <span>Prices start at:</span>
+                                    <span class="vil-carousel-price-currency">€630</span>
+                                    <span class="vil-carousel-price-period">for 3 nights</span>
+                                </div>
+                                <button class="vil-carousel-button">Book</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item"
+                            style="background-image: url(./public/images/Banner2_original-2000x1333.jpg);">
+                            <div class="carousel-caption">
+                                <span class="vil-carousel-categories">Lazio</span>
+                                <h3 class="vil-carousel-title">Seaside Villa Tuscany Maremma</h3>
+                                <p class="vil-carousel-description">A beautiful villa in one of the most attractive
+                                    destinations of Italy – in Maremma coastline area, in northwestern
+                                    Italy.</p>
+                                <div class="vil-carousel-price">
+                                    <span>Prices start at:</span>
+                                    <span class="vil-carousel-price-currency">€474</span>
+                                    <span class="vil-carousel-price-period">for 3 nights</span>
+                                </div>
+                                <button class="vil-carousel-button">Book</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item"
+                            style="background-image: url(./public/images/Banner3_original-2000x1333.jpg);">
+                            <div class="carousel-caption">
+                                <span class="vil-carousel-categories">Lazio</span>
+                                <h3 class="vil-carousel-title">Beachfront Villa Casa Aurora</h3>
+                                <p class="vil-carousel-description">A wonderful fully equipped beachfront villa in
+                                    Lazio, the home of Rome, where you’ll can get your best vacation
+                                    memories.</p>
+                                <div class="vil-carousel-price">
+                                    <span>Prices start at:</span>
+                                    <span class="vil-carousel-price-currency">€360</span>
+                                    <span class="vil-carousel-price-period">for 3 nights</span>
+                                </div>
+                                <button class="vil-carousel-button">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main class="col-12 pt-5">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="vil-entry">
+                            <h1 class="vil-entry-title">The villa rental expert for your vacation</h1>
+                            <p class="vil-entry-description">Villagio offers diverse villas in different regions to help
+                                you
+                                spend your dream vacation. Bookyour villa online quickly and safely.
+                            </p>
+                            <div class="vil-entry-content">
+                                <div class="vil-entry-search">
+                                    <div class="form-group">
+                                        <label>Check-in <span>*</span></label>
+                                        <input type="text" class="form-control" placeholder="Check-in Date"
+                                            style="background-image: url(./public/images/calendar-o.svg);">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Check-out <span>*</span></label>
+                                        <input type="text" class="form-control" placeholder="Check-out Date"
+                                            style="background-image: url(./public/images/calendar-o.svg);">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Adults</label>
+                                        <select class="form-control" >
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Children</label>
+                                        <select class="form-control" >
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group mt-5 mt-lg-0">
+                                        <button class="vil-entry-button mt-0">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 px-0 px-lg-5">
+                        <div class="vil-post row">
+                            <div class="col-lg-4">
+                                <div class="vil-post-item">
+                                    <a href="" class="vil-post-item-image"
+                                        style="background-image: url(./public/images/Pic1_original-1434x1080.jpg);">
+                                        <div class="vil-post-item-categories">Le Marche</div>
+                                    </a>
+                                    <div class="vil-post-item-content">
+                                        <a href="" class="vil-post-item-title">Le Marche Etna House</a>
+                                        <div class="vil-post-item-description">Le Marche Etna House is a fully equipped
+                                            villa
+                                            with
+                                            many 3 big rooms, swimming pool, terrace and lots of other
+                                            facilities.</div>
+                                        <ul class="vil-post-item-attributes">
+                                            <li><i class="fa fa-user" aria-hidden="true"></i> 10</li>
+                                            <li><i class="fa fa-child" aria-hidden="true"></i> 4</li>
+                                            <li><i class="fa fa-arrows-alt" aria-hidden="true"></i> 260m²</li>
+                                        </ul>
+                                        <div class="vil-post-item-facilities">
+                                            <span>Amenities:</span>
+                                            <a href="">Air conditioning</a>,
+                                            <a href="">Balcony</a>,
+                                            <a href="">Beachfront</a>,
+                                            <a href="">Dining area</a>,
+                                            <a href="">Flat-screen TV</a>,
+                                            <a href="">Free parking</a>,
+                                            <a href="">Free WiFi</a>,
+                                            <a href="">Outdoor pool</a> /
+                                            <span>View: Swimming pool / Bed Type: 1 Queen bad, 4 Tween beds, 1 Full bed
+                                                /
+                                                Categories:</span>
+                                            <a href="">Le Marche</a>
+                                        </div>
+                                        <div class="vil-post-item-price">
+                                            <span>Prices start at:</span>
+                                            <span class="vil-post-item-price-currency">€750</span>
+                                            <span class="vil-post-item-price-period">for 3 nights</span>
+                                        </div>
+                                        <button class="vil-post-item-button">Book</button>
+                                        <span class="vil-post-item-details">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="vil-post-item">
+                                    <a href="" class="vil-post-item-image"
+                                        style="background-image: url(./public/images/Pic2_original-1434x1080.jpg);">
+                                        <div class="vil-post-item-categories">Le Marche</div>
+                                    </a>
+                                    <div class="vil-post-item-content">
+                                        <a href="" class="vil-post-item-title">Villa Bastilicata Grande</a>
+                                        <div class="vil-post-item-description">This is a perfect villa with spa center
+                                            and hot
+                                            tub for private, family and corporate rest in Le Marche region in Italy,
+                                            with best nature views.</div>
+                                        <ul class="vil-post-item-attributes">
+                                            <li><i class="fa fa-user" aria-hidden="true"></i> 8</li>
+                                            <li><i class="fa fa-arrows-alt" aria-hidden="true"></i> 180m²</li>
+                                            <li class="d-none d-lg-block invisible"><i class="fa fa-child"
+                                                    aria-hidden="true"></i> 0
+                                            </li>
+                                        </ul>
+                                        <div class="vil-post-item-facilities">
+                                            <span>Amenities:</span>
+                                            <a href="">Air conditioning</a>,
+                                            <a href="">Balcony</a>,
+                                            <a href="">Dining area</a>,
+                                            <a href="">Flat-screen TV</a>,
+                                            <a href="">Free parking</a>,
+                                            <a href="">Free WiFi</a>,
+                                            <a href="">Outdoor pool</a>
+                                            <span>View: Beachfront, Outdoor pool Bed Type: 2 Queen beds, 3 Tween beds, 1
+                                                Sofa /
+                                                Categories:</span>
+                                            <a href="">Le Marche</a>
+                                        </div>
+                                        <div class="vil-post-item-price">
+                                            <span>Prices start at:</span>
+                                            <span class="vil-post-item-price-currency">€630</span>
+                                            <span class="vil-post-item-price-period">for 3 nights</span>
+                                        </div>
+                                        <button class="vil-post-item-button">Book</button>
+                                        <span class="vil-post-item-details">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="vil-post-item">
+                                    <a href="" class="vil-post-item-image"
+                                        style="background-image: url(./public/images/Pic3_original-1434x1080.jpg);">
+                                        <div class="vil-post-item-categories">Aosta Valley</div>
+                                    </a>
+                                    <div class="vil-post-item-content">
+                                        <a href="" class="vil-post-item-title">Summer Villa Emilia</a>
+                                        <div class="vil-post-item-description">Summer Villa Emilia is a perfect place
+                                            for luxury
+                                            rest, traveling and tasting the best regional cuisine in Italy, with a
+                                            feel of Renaissance.</div>
+                                        <ul class="vil-post-item-attributes">
+                                            <li><i class="fa fa-user" aria-hidden="true"></i> 5</li>
+                                            <li><i class="fa fa-child" aria-hidden="true"></i> 2</li>
+                                            <li><i class="fa fa-arrows-alt" aria-hidden="true"></i> 160m²</li>
+                                        </ul>
+                                        <div class="vil-post-item-facilities">
+                                            <span>Amenities:</span>
+                                            <a href="">Air conditioning</a>,
+                                            <a href="">Balcony</a>,
+                                            <a href="">Beachfront</a>,
+                                            <a href="">Dining area</a>,
+                                            <a href="">Flat-screen TV</a>,
+                                            <a href="">Free parking</a>,
+                                            <a href="">Free WiFi</a>,
+                                            <a href="">Outdoor pool</a>,
+                                            <a href="">Pet friendly</a>,
+                                            <a href="">Terrace</a> /
+                                            <span>View: Beachfront Bed Type: 2 Full beds, 2 Queen beds, 2 Tween beds /
+                                                Categories:</span>
+                                            <a href="">Aosta Valley</a>
+                                        </div>
+                                        <div class="vil-post-item-price">
+                                            <span>Prices start at:</span>
+                                            <span class="vil-post-item-price-currency">€561</span>
+                                            <span class="vil-post-item-price-period">for 3 nights</span>
+                                        </div>
+                                        <button class="vil-post-item-button">Book</button>
+                                        <span class="vil-post-item-details">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="vil-post-item">
+                                    <a href="" class="vil-post-item-image"
+                                        style="background-image: url(./public/images/Pic4_original-1434x1080.jpg);">
+                                        <div class="vil-post-item-categories">Lazio</div>
+                                    </a>
+                                    <div class="vil-post-item-content">
+                                        <a href="" class="vil-post-item-title">Seaside Villa Tuscany Maremma</a>
+                                        <div class="vil-post-item-description">A beautiful villa in one of the most
+                                            attractive
+                                            destinations of Italy – in Maremma coastline area, in northwestern
+                                            Italy.</div>
+                                        <ul class="vil-post-item-attributes">
+                                            <li><i class="fa fa-user" aria-hidden="true"></i> 4</li>
+                                            <li><i class="fa fa-arrows-alt" aria-hidden="true"></i> 240m²</li>
+                                            <li class="d-none d-lg-block invisible"><i class="fa fa-child"
+                                                    aria-hidden="true"></i> 0
+                                            </li>
+                                        </ul>
+                                        <div class="vil-post-item-facilities">
+                                            <span>Amenities:</span>
+                                            <a href="">Air conditioning</a>,
+                                            <a href="">Beachfront</a>,
+                                            <a href="">Dining area</a>,
+                                            <a href="">Flat-screen TV</a>,
+                                            <a href="">Free parking</a>,
+                                            <a href="">Free WiFi</a>,
+                                            <a href="">Outdoor pool</a>,
+                                            <a href="">Terrace</a>
+                                            <span>View: Seaside Bed Type: 1 Queen bed, 4 Tween beds, 1 Full bed /
+                                                Categories:</span>
+                                            <a href="">Lazio</a>
+                                        </div>
+                                        <div class="vil-post-item-price">
+                                            <span>Prices start at:</span>
+                                            <span class="vil-post-item-price-currency">€474</span>
+                                            <span class="vil-post-item-price-period">for 3 nights</span>
+                                        </div>
+                                        <button class="vil-post-item-button">Book</button>
+                                        <span class="vil-post-item-details">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="vil-post-item">
+                                    <a href="" class="vil-post-item-image"
+                                        style="background-image: url(./public/images/Pic5_original-1434x1080.jpg);">
+                                        <div class="vil-post-item-categories">Aosta Valley</div>
+                                    </a>
+                                    <div class="vil-post-item-content">
+                                        <a href="" class="vil-post-item-title">Alps Mountains Winter Cottage Monte
+                                            Bianco in
+                                            Aosta Valley</a>
+                                        <div class="vil-post-item-description">Cottage Monte Bianco in Aosta Valley is
+                                            well-decorated, warm and fully functional country cottage perfect for your
+                                            winter vacation.</div>
+                                        <ul class="vil-post-item-attributes">
+                                            <li><i class="fa fa-user" aria-hidden="true"></i> 6</li>
+                                            <li><i class="fa fa-child" aria-hidden="true"></i> 4</li>
+                                            <li><i class="fa fa-arrows-alt" aria-hidden="true"></i> 120m²</li>
+                                        </ul>
+                                        <div class="vil-post-item-facilities">
+                                            <span>Amenities:</span>
+                                            <a href="">Air conditioning</a>,
+                                            <a href="">Balcony</a>,
+                                            <a href="">Dining area</a>,
+                                            <a href="">Fireplace</a>,
+                                            <a href="">Flat-screen TV</a>,
+                                            <a href="">Free parking</a>,
+                                            <a href="">Free WiFi</a>,
+                                            <a href="">Terrace</a>
+                                            <span>View: Mountains Bed Type: 1 Queen bad, 4 Tween beds, 1 Full bed /
+                                                Categories:</span>
+                                            <a href="">Aosta Valley</a>
+                                        </div>
+                                        <div class="vil-post-item-price">
+                                            <span>Prices start at:</span>
+                                            <span class="vil-post-item-price-currency">€402</span>
+                                            <span class="vil-post-item-price-period">for 3 nights</span>
+                                        </div>
+                                        <button class="vil-post-item-button">Book</button>
+                                        <span class="vil-post-item-details">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="vil-post-item">
+                                    <a href="" class="vil-post-item-image"
+                                        style="background-image: url(./public/images/Pic6_original-1434x1080.jpg);">
+                                        <div class="vil-post-item-categories">Lazio</div>
+                                    </a>
+                                    <div class="vil-post-item-content">
+                                        <a href="" class="vil-post-item-title">Beachfront Villa Casa Aurora</a>
+                                        <div class="vil-post-item-description">A wonderful fully equipped beachfront
+                                            villa in
+                                            Lazio, the home of Rome, where you’ll can get your best vacation
+                                            memories.</div>
+                                        <ul class="vil-post-item-attributes">
+                                            <li><i class="fa fa-user" aria-hidden="true"></i> 8</li>
+                                            <li><i class="fa fa-arrows-alt" aria-hidden="true"></i> 350m²</li>
+                                            <li class="d-none d-lg-block invisible"><i class="fa fa-child"
+                                                    aria-hidden="true"></i> 0
+                                            </li>
+                                        </ul>
+                                        <div class="vil-post-item-facilities">
+                                            <span>Amenities:</span>
+                                            <a href="">Air conditioning</a>,
+                                            <a href="">Balcony</a>,
+                                            <a href="">Beachfront</a>,
+                                            <a href="">Dining area</a>,
+                                            <a href="">Flat-screen TV</a>,
+                                            <a href="">Free parking</a>,
+                                            <a href="">Free WiFi</a>,
+                                            <a href="">Outdoor pool</a>,
+                                            <a href="">Pet friendly</a>,
+                                            <a href="">Terrace</a>
+                                            <span>View: Beachfront, Swimming pool Bed Type: 2 Full beds, 2 Queen beds, 2
+                                                Tween
+                                                beds /
+                                                Categories:</span>
+                                            <a href="">Lazio</a>
+                                        </div>
+                                        <div class="vil-post-item-price">
+                                            <span>Prices start at:</span>
+                                            <span class="vil-post-item-price-currency">€360</span>
+                                            <span class="vil-post-item-price-period">for 3 nights</span>
+                                        </div>
+                                        <button class="vil-post-item-button">Book</button>
+                                        <span class="vil-post-item-details">View Details</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <div class="vil-entry">
+                            <h1 class="vil-entry-title">Guest Reviews</h1>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="vil-testimonial row px-0 px-lg-5 py-5">
+                            <div class="col-lg-4">
+                                <div class="vil-testimonial-item">
+                                    <a href=""><img src="./public/images/Author1_original-600x600.jpg"
+                                            class="vil-testimonial-item-author" alt=""></a>
+                                    <div class="ml-0 ml-md-4">
+                                        <div class="vil-testimonial-item-content">I was in Italy for the first time and
+                                            stayed
+                                            by chance in a winder cottage
+                                            Monte Bianco. I must say that was an
+                                            unforgettable experience!</div>
+                                        ― <a href="" class="vil-testimonial-item-name">Joe Doe</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="vil-testimonial-item">
+                                    <a href=""><img src="./public/images/Author2_original-600x600.jpg"
+                                            class="vil-testimonial-item-author" alt=""></a>
+                                    <div class="ml-0 ml-md-4">
+                                        <div class="vil-testimonial-item-content">I’ll never forget our summer stay at
+                                            villa
+                                            Emilia! Perfect location,
+                                            perfect service, amazing nature views. I enjoyed
+                                            the stay and would recommend it to everyone. Moreover, there are a lot of
+                                            interesting things to visit and do –
+                                            fests,
+                                            food tours, castles tours and much more!</div>
+                                        ― <a href="" class="vil-testimonial-item-name">Kim Lee</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="vil-testimonial-item">
+                                    <a href=""><img src="./public/images/Author3_original-618x618.jpg"
+                                            class="vil-testimonial-item-author" alt=""></a>
+                                    <div class="ml-0 ml-md-4">
+                                        <div class="vil-testimonial-item-content">I was visiting Le Marche with my
+                                            family
+                                            and
+                                            friends and stayed at Etna
+                                            House – this was an amazing and unforgettable
+                                            stay! A lot of space, a pool, a beachfront, just a peaceful rest.</div>
+                                        ― <a href="" class="vil-testimonial-item-name">Tom Hendrix</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="col-12 vil-footer">
+                <div class="vil-footer-top row" style="background-color: #F5F3F1;">
+                    <div class="col-lg-4">
+                        <div class="vil-footer-item">
+                            <h6 class="vil-footer-title">About us</h6>
+                            <div class="pr-5">
+                                <p>We are one of the most recognized happy vacation makers in Italy – we provide a wide
+                                    range of
+                                    great villas for any
+                                    occasion since 2015.</p>
+                                <p>Any type of a winter or summer villa can be found on the site.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="vil-footer-item">
+                            <h6 class="vil-footer-title">Recent news</h6>
+                                <ul class="vil-footer-menu">
+                                    <li>
+                                        <a href="">Unforgettable Vignanello garden tour in Lazio</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Special discounts for Italian castles tour!</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Places of interest near summer villa Emilia</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Celebrate Lucca Summer Festival with us</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Lazio or Campania: which location is best for your stay?</a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="vil-footer-item">
+                            <h6 class="vil-footer-title">Links</h6>
+                                <ul class="vil-footer-menu">
+                                    <li>
+                                        <a href="">How to book</a>
+                                    </li>
+                                    <li>
+                                        <a href="">General letting conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Jobs and careers</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Travel agent resources</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Contact us</a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="vil-footer-copyright">
+                    <div class="order-2">
+                        <a href="">+1 (954) 456 6789</a> / <a href="">410 Sunny St, Florida, FL</a>
+                    </div>
+                    <div class="order-1 mt-4 mt-lg-0">Villagio © 2021</div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./public/js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./public/js/popper.min.js"></script>
+    <script src="./public/js/bootstrap.min.js"></script>
+</body>
+
+</html>
